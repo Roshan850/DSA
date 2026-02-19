@@ -20,10 +20,14 @@ public class BasicHM {
 //        MajorityElement m = new MajorityElement();
 //        m.majorityEle(arr);
 
-        String s ="anagram";
-        String t = "nagaram";
-        ValidAnagram v = new ValidAnagram();
-        System.out.println(v.isvalid(s,t));
+//        String s ="anagram";
+//        String t = "nagaram";
+//        ValidAnagram v = new ValidAnagram();
+//        System.out.println(v.isvalid(s,t));
+
+        MaximumSizeSubarraySumEquals0 m = new MaximumSizeSubarraySumEquals0();
+        int[] arr ={15,-2,2,-8,1,7,10,23};
+        m.codeMax(arr);
 
     }
 }
